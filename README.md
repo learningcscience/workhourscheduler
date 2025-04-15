@@ -1,5 +1,14 @@
 # Monthly Work‑Hour Scheduler GUI
 
+
+
+## App UI
+
+![App UI view](app.png)
+
+
+
+
 A Tkinter‑based desktop application to help you log your clock‑in/clock‑out times, track your monthly work hours, and calculate how many hours per day you need to work to reach a 70‑hour target each month.
 
 ---
