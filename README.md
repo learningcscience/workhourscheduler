@@ -1,3 +1,40 @@
+# Monthly Work‑Hour Scheduler GUI
+
+A Tkinter‑based desktop application to help you log your clock‑in/clock‑out times, track your monthly work hours, and calculate how many hours per day you need to work to reach a 70‑hour target each month.
+
+---
+
+## 📝 Features
+
+- **Clock In / Clock Out**  
+  Record your start and end times for each day with a single click.
+
+- **Entries View**  
+  See a table of all your daily entries for the current month (date, in, out, duration).
+
+- **Summary View**  
+  • Total hours worked this month  
+  • Hours remaining to 70 h  
+  • Days left in the month  
+  • Required hours per remaining day
+
+- **Persistence**  
+  All entries are stored in an SQLite database (`work_hours.db`) so your data survives between sessions.
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/yourusername/work-hour-scheduler.git
+   cd work-hour-scheduler
+
+
+
+
+
+
 ```mermaid
 classDiagram
     class DatabaseManager {
