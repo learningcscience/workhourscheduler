@@ -56,5 +56,6 @@ class MainWindow(tk.Tk):
 
 
 
-    def refresh(self):
-        pass
+    def count(self):
+        cnt= 2+3
+        return cnt
