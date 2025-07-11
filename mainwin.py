@@ -57,5 +57,6 @@ class MainWindow(tk.Tk):
 
 
     def count(self):
-        cnt= 2+3
+        cnt= 2+7
+    
         return cnt
